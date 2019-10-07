@@ -25,6 +25,12 @@ a {
 	text-decoration: none;
 }
 
+h2 {
+	text-align: center;
+	font-size: 2.5rem;
+	padding-bottom: 35px;
+}
+
 h3 {
 	font-size: 1.6rem;
 	padding-bottom: 15px;
@@ -33,6 +39,10 @@ h3 {
 h4 {
 	font-size: 1.175rem;
 	padding-bottom: 15px;
+}
+
+p {
+	line-height: 1.8em;
 }
 
 /* ----- UTILITY ----- */
@@ -121,9 +131,7 @@ ion-icon {
 
 .py-20 { padding: 20px 0; }
 
-/* ------------------------------ */
-/* HEADER
-/* ------------------------------ */
+/* ----- HEADER ----- */
 header {
 	background: #FFCB05;
 }
@@ -180,6 +188,8 @@ header {
 /* ----- INFO ----- */
 .photo-1-bg { background: url('../img/photo-1.jpg') no-repeat center/cover; }
 .photo-2-bg { background: url('../img/photo-2.jpg') no-repeat center/cover; }
+.photo-3-bg { background: url('../img/photo-3.jpg') no-repeat center/cover; }
+.photo-4-bg { background: url('../img/photo-4.jpg') no-repeat center/cover; }
 
 /* ----- FEATURES ----- */
 .box {
@@ -195,6 +205,31 @@ header {
 .box p {
 	color: #fff;
 	padding-bottom: 10px;
+}
+
+/* ----- TESTIMONIALS ----- */
+.testimonials {
+	padding: 70px 30px 50px;
+	background: url('../img/testimonials.jpg') no-repeat center/cover;
+}
+
+.testimonials h2 {
+	color: #fff;
+}
+
+.testimonial {
+	margin-bottom: 40px;
+	background: rgba(255,255,255,0.75);
+}
+
+.testimonial .portrait {
+	float: left;
+	width: 18%;
+}
+
+.testimonial p {
+	float: right;
+	width: 82%;
 }
 
 /* ----- FOOTER ----- */
