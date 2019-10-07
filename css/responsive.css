@@ -1,0 +1,44 @@
+@media only screen and (max-width: 960px) {
+	.testimonial {
+		padding: 30px;
+	}
+
+	.testimonial p {
+		padding: 0;
+		padding-left: 30px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.testimonial p {
+		font-size: 0.875rem;
+		line-height: 1.65em;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.testimonial .portrait {
+		float: none;
+		width: 100%;
+	}
+
+	.testimonial p {
+		float: none;
+		width: 100%;
+		padding-left: 0;
+		padding-top: 15px;
+		font-size: 1rem;
+		line-height: 1.8em;
+	}
+}
+
+@media only screen and (max-width: 358px) {
+	.testimonial {
+		padding: 0;
+	}
+
+	.testimonial p {
+		padding: 20px;
+		padding-top: 10px;
+	}
+}
