@@ -92,7 +92,7 @@ p {
 }
 
 .lead-copy {
-	font-size: 24px;
+	font-size: 1.5rem;
 }
 
 .bg-yellow {
@@ -212,6 +212,7 @@ header .container {
 
 .testimonial .portrait {
 	max-width: 200px;
+	max-height: 200px;
 }
 
 .testimonial p {
