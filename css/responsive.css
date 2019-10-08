@@ -9,11 +9,13 @@
 	}
 }
 
+/*
 @media only screen and (max-width: 860px) {
 	.photo-1-bg {
 		display: none;
 	}
 }
+*/
 
 @media only screen and (max-width: 768px) {
 	.testimonial p {
@@ -24,12 +26,10 @@
 
 @media only screen and (max-width: 600px) {
 	.testimonial .portrait {
-		float: none;
 		width: 100%;
 	}
 
 	.testimonial p {
-		float: none;
 		width: 100%;
 		padding-left: 0;
 		padding-top: 15px;
