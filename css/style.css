@@ -62,7 +62,8 @@ p {
 	justify-content: flex-end;
 }
 
-.box {
+.box-3 {
+	width: 33.3%;
 	text-align: center;
 }
 
@@ -185,6 +186,7 @@ header .container {
 /* ----- FEATURES ----- */
 .features .container {
 	display: flex;
+	justify-content: space-between;
 }
 
 .features p,
@@ -256,6 +258,11 @@ header .container {
 
 .contact-form .btn:hover {
 	background: #333;
+}
+
+/* ----- CONTACT-DETAILS ----- */
+.contact-details .container {
+	display: flex;
 }
 
 /* ----- FOOTER ----- */
